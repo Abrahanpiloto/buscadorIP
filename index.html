@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <link rel="stylesheet" href="styles.css">  -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Buscador de IP</title>
+	</head>
+
+	<body>
+		<main class="container">
+			<h1>Buscador de IP</h1>
+
+			<form id="form">
+				<label>
+					IP del usuario
+					<input
+						required
+						id="input"
+						type="text"
+						placeholder="Introduce aqui la IP"
+					/>
+					<small>Ejemplo de IP: 66.165.2.7</small>
+				</label>
+
+				<button id="submit" type="submit">Buscar Información de esta IP</button>
+			</form>
+
+			<div>
+				<pre id="results" class="results">
+          <p id="ip" class="ip"></p>
+          <p id="continente" class="continente"></p>
+          <p id="bandera" class="bandera"></p>
+          <p id="pais" class="pais"></p>
+          <p id="ciudad" class="ciudad"></p>
+          <p id="latitud" class="latitud"></p>
+          <p id="longitud" class="longitud"></p>
+          
+          <p id="" class=""></p>       
+        </pre>
+			</div>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>
