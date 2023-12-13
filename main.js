@@ -49,8 +49,8 @@ $form.addEventListener("submit", async (e) => {
 	if (ipInfo) {
 		$ip.innerHTML = "IP: " + ip;
 		$continente.innerHTML = "Continente: " + continente;
-		$pais.innerHTML = "Pais: " + pais;
-		$bandera.innerHTML = "Bandera: " + bandera;
+		$pais.innerHTML = "Pais: " + pais + " " + bandera;
+		// $bandera.innerHTML = "Bandera: " + bandera;
 		$ciudad.innerHTML = "Ciudad: " + ciudad;
 		$latitud.innerHTML = "Latitud: " + latitud;
 		$longitud.innerHTML = "Longitud: " + longitud;
